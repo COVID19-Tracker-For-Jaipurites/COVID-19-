@@ -1,35 +1,32 @@
 const express = require("express");
-const app = express();
-const http = require("https")
+const https = require("https");
 const bodyparser = require("body-parser");
 
 
-app.use(bodyparser.urlencoded({extended:true}));
+const app = express();
 
 app.use(express.static("public"));
+app.use(bodyparser.urlencoded({extended:true}));
+
+
 
 app.get("/",function(req,res){
-  res.sendFile(__dirname+"/index.html");
+  res.sendFile(__dirname+"/home.html");
 
 });
+
 
 app.post("/",function(req,res){
-res.sendFile(__dirname+"/index.html");
-  const url= "https://api.covid19india.org/v2/state_district_wise.json"
-  http.get(url,function(response){
-response.setEncoding('binary');
-    response.on("data",function(data){
-const delta = JSON.parse(data);
-      console.log(delta);
-
-    });
-  });
-
-  // console.log(req.body.city);
+res.sendFile(__dirname+"/home.html");
 });
 
+app.get("/cases.html", function(req, res){
+  res.sendFile(__dirname+"/cases.html");
+});
 
-
+app.post("/cases.html",function(req,res){
+res.sendFile(__dirname+"/cases.html");
+});
 
 
 app.listen(3000,function(){
