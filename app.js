@@ -2,7 +2,6 @@ const express = require("express");
 const https = require("https");
 const bodyparser = require("body-parser");
 
-
 const app = express();
 
 app.use(express.static("public"));
@@ -20,13 +19,7 @@ app.post("/",function(req,res){
 res.sendFile(__dirname+"/home.html");
 });
 
-app.get("/cases.html", function(req, res){
-  res.sendFile(__dirname+"/cases.html");
-});
 
-app.post("/cases.html",function(req,res){
-res.sendFile(__dirname+"/cases.html");
-});
 
 
 app.listen(3000,function(){
