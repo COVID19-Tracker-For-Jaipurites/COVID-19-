@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const https = require("https");
 const bodyparser = require("body-parser");
@@ -9,9 +10,10 @@ const mongoose = require("mongoose");
 app.use(express.static("public"));
 app.use(bodyparser.urlencoded({extended:true}));
 app.set('view engine', 'ejs');
-
+console.log(process.env.PASSWORD)
 // Server Connection Of mongodb
-mongoose.connect("mongodb://localhost:27017/covidDB");
+var url = process.env.URL;
+mongoose.connect(url, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 // mongoose Schema
 const areaschema= new mongoose.Schema({
   areaname:String,
@@ -21,11 +23,7 @@ const areaschema= new mongoose.Schema({
 const Area = mongoose.model("area",areaschema);
 
 // setting random area and it's cases for testing
-const random = new Area({
-  areaname:"Purani Vidhasabha",
-  cases:3
-})
-random.save();
+
 
 
 // mongoose Schema for total cases
