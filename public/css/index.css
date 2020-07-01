@@ -20,7 +20,8 @@
   background-color: #fff;
 }
 .image{
-  height: 335px;
+  height: 355px;
+  margin-top: 30px;
 }
 
 .footercase{
@@ -37,6 +38,7 @@ h1{
   font-style: italic;
   font-size: 30px;
   color:black;
+  margin-top: 32px;
 }
 
 
@@ -141,6 +143,7 @@ text-align: center;
 .btn{
   display: flex;
     justify-content: center;
+    margin-top: 32px;
 }
 
 
@@ -176,10 +179,10 @@ color:black; }
 
 
 
-@media screen and (min-device-width:277px) and (max-device-width:319px){
+@media screen and (min-device-width:278px) and (max-device-width:319px){
 
     .image{
-      height:241px;
+      height:280px;
       margin-top: 35px;
     }
 .button{
@@ -192,9 +195,9 @@ color:black; }
 
   .line{
     font-style: italic;
-    font-size: 19px;
+    font-size: 24px;
     color: black;
-    margin-top: 42px;
+    margin-top: 82px;
   }
 
   .secondheading{
@@ -207,7 +210,7 @@ color:black; }
   .btn{
     display: flex;
       justify-content: center;
-
+margin-top: 10px;
   }
   .area-wise{
     background-color: #ef8172;
@@ -240,20 +243,20 @@ color:black; }
 @media screen and (min-device-width:320px) and (max-device-width:405px){
 
   .image{
-    height:250px;
-    margin-top: 20px;
+    height:280px;
+    margin-top: 40px;
   }
 
 h1{
   font-size: 2rem;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .line{
   font-style: italic;
   font-size: 23px;
   color: black;
-  margin-top: 36px;
+  margin-top: 50px;
 }
 .button{
   font-size: 15px;
@@ -268,6 +271,7 @@ h1{
 .btn{
   display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
 .area-wise{
   background-color: #ef8172;
@@ -296,12 +300,12 @@ font-size: 0.7rem;
 @media screen and (min-device-width:406px) and (max-device-width:481px){
 
   h1{
-    font-size: 2rem;
+    font-size: 2.4rem;
     margin-top: 10px;
   }
 
 .image{
-      height:295px;
+      height:330px;
       margin-top: 12px;
     }
     .button{
@@ -314,6 +318,7 @@ font-size: 0.7rem;
       font-style: italic;
       font-size: 25px;
       color:black;
+      margin-top: 40px;
     }
     .secondheading{
       color:#ef8172;
@@ -343,6 +348,12 @@ font-size: 0.7rem;
     margin-bottom: 0rem;
     font-size: 0.7rem;
     }
+    .btn{
+      display: flex;
+        justify-content: center;
+        margin-top: 25px;
+      }
+
 }
 
 
@@ -351,21 +362,27 @@ font-size: 0.7rem;
 @media screen and (min-device-width:481px) and (max-device-width:688px){
 
   h1{
-    font-size: 2rem;
+    font-size: 2.6rem;
     margin-top: 10px;
   }
 
 .image{
-      height:309px;
+      height:350px;
       margin-top: 20px;
     }
     .button{
       font-size: 17px;
     }
+    .btn{
+      display: flex;
+        justify-content: center;
+        margin-top: 28px;
+      }
 .line{
       font-style: italic;
       font-size: 25px;
       color:black;
+      margin-top: 20px;
     }
     .secondheading{
       color:#ef8172;
@@ -400,25 +417,30 @@ font-size: 0.7rem;
 @media screen and (min-device-width:689px) and (max-device-width:966px){
 
   h1{
-    font-size: 3rem;
-    margin-top: 5px;
+    font-size: 3.3rem;
+    margin-top: 0px;
   }
 
   .image{
-      height:302px;
+      height:350px;
 
     }
     .button{
       font-size: 19px;
     }
+    .btn{
+      display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
     .wrapper_text {
     padding-top: 14px;
 }
   .line{
       font-style: italic;
-      font-size: 23px;
+      font-size: 25px;
       text-decoration-color: grey;
-      margin-top: 5px;
+      margin-top: 10px;
     }
     .secondheading{
       color:#ef8172;
@@ -453,7 +475,7 @@ font-size: 0.7rem;
 @media screen and (min-device-width:967px) and (max-device-width:1255px){
 
   h1{
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     margin-top: -10px;
   }
 
@@ -461,17 +483,17 @@ font-size: 0.7rem;
       padding-top: 8px;
   }
   .image{
-      height:306px;
-
+      height:340px;
+margin-top: 10px;
     }
     .button{
       font-size: 20px;
     }
   .line{
       font-style: italic;
-      font-size: 25px;
+      font-size: 28px;
       text-decoration-color: grey;
-      margin-top: 5px;
+      margin-top: 30px;
     }
     .secondheading{
       color:#ef8172;
@@ -495,7 +517,6 @@ font-size: 0.7rem;
     margin-top: 50px;
       margin-bottom: 30px;
     }
-
 
     .copyright{
     margin-bottom: 0rem;
