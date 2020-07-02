@@ -10,7 +10,7 @@ const mongoose = require("mongoose");
 app.use(express.static("public"));
 app.use(bodyparser.urlencoded({extended:true}));
 app.set('view engine', 'ejs');
-console.log(process.env.PASSWORD)
+
 // Server Connection Of mongodb
 var url = process.env.URL;
 mongoose.connect(url, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
