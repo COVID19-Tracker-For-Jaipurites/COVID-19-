@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title></title>
+</head>
+<body>
+<div class = "full">
+
+<div class="wrapper">
+
+<img src="image\covid-image-(1).png" alt="diseasephoto"  class = "image">
+<div class="wrapper_text">
+  <h1 ><b>COVID-19 TRACKER:</b></h1>
+  <h1><b>JAIPUR</b></h1>
+  <p class = "line">A Site Just To Keep You Updated Every Time!</p>
+</div>
+
+<div class="btn">
+<button class = "button" onclick="myFunc()">See Updates</button></div>
+
+      <!--script to redirect to another webpage-->
+      <script>
+         function myFunc() {
+           window.location.href="#casesfound";
+         }
+      </script>
+
+
+</div>
+
+<!-- HEADER OF EJS!! ENDS HERE -->
+
+
+
+
+
+
+<section id = "casesfound">
+
+
+      <div class = "wrap">
+<h1 class="secondheading">Latest Stats </h1>
+
+      <div class = "container-fluid text-centre">
+<div class = "numbers d-flex flex-md-row flex-wrap justify-content-center">
+
+  <div class = "rect">
+<h1 class = "counter" data-target = "4000">0</h1>
+<p><b>Confirmed Cases</b></p>
+  </div>
+
+<div class = "rect">
+  <h1 class = "counter" data-target = "6000">0</h1>
+  <p><b>Active Cases</b></p>
+</div>
+
+<div class = "rect">
+<h1 class = "counter" data-target = "9000">0</h1>
+<p><b>Deaths</b></p>
+</div>
+
+<div class = "rect">
+  <h1 class = "counter" data-target = "8000">0</h1>
+  <p><b>Total Recovered</b></p>
+</div>
+</div>
+        </div>
+
+      </div>
+
+
+
+</section>
+
+
+
+
+
+
+<div class = "area-wise">
+
+
+
+      <h1 class = "area">Area-Wise Status</h1>
+
+      <table>
+        <tr>
+          <th>Sr.No.</th>
+          <th>Area</th>
+          <th>Number of Cases</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Jawahar Nagar</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Adarsh Nagar</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Malviya Nagar</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Jagatpura</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Sikar</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td>Vaishali Nagar</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>7.</td>
+          <td>Tilak Nagar</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>8.</td>
+          <td>Ajmer Road</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>9.</td>
+          <td>Sirsi Road</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>10.</td>
+          <td>Subhash Marg</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>11.</td>
+          <td>Raja Park</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>12.</td>
+          <td>Bani park</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>13.</td>
+          <td>Sethi Colony</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>14.</td>
+          <td>Shastri Nagar</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>15.</td>
+          <td>Civil Lines</td>
+          <td>1</td>
+        </tr>
+      </table>
+</div>
+
+<!-- HOME.ejs ENDS HERE -->
+
+      </body>
+      <footer>
+        <div class = "footercase">
+
+          <p class="disclaimer">*The Data Shown On The Site May Not Match With Goverment Data Sometimes
+          For More Information Visit At <a href="https://www.mygov.in/covid-19">mygov.in</a>
+          </p>
+          <p class = "copyright" > © COVID-19 Tracker. All Rights Reserved. </p>
+        </div>
+      </footer>
+      </div>
+
+</body>
+
+</div>
+</html>
+<!-- FOOTER.ejs ENDS HERE -->

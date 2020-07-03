@@ -1,0 +1,137 @@
+<%- include("partials/header")%>
+
+
+<section id = "casesfound">
+
+
+      <div class = "wrap">
+<h1 class="secondheading">Latest Stats </h1>
+
+      <div class = "container-fluid text-centre">
+<div class = "numbers d-flex flex-md-row flex-wrap justify-content-center">
+
+  <div class = "rect">
+<h1 class = "counter" ><%= confirm %></h1>
+<p><b>Confirmed Cases</b></p>
+  </div>
+
+<div class = "rect">
+  <h1 class = "counter" ><%= active %></h1>
+  <p><b>Active Cases</b></p>
+</div>
+
+<div class = "rect">
+<h1 class = "counter" ><%= death %></h1>
+<p><b>Deaths</b></p>
+</div>
+
+<div class = "rect">
+  <h1 class = "counter" data-target = "8000"><%= recover %></h1>
+  <p><b>Total Recovered</b></p>
+</div>
+</div>
+        </div>
+
+      </div>
+
+
+
+</section>
+
+<div class = "area-wise">
+      <h1 class = "area">Area-Wise Status</h1>
+      <p style="display:flex; justify-content:center;font-size: 22px;">(As On <%= EJS %>)</p>
+      <table>
+        <tr>
+          <th>Sr.No.</th>
+          <th>Area</th>
+          <th>Number of Cases</th>
+        </tr>
+        <tr>
+
+<% var total=0;
+data.forEach(function(element , i){%>
+          <td><%=i+1%></td>
+          <td><%=element.areaname %></td>
+          <td><%=element.cases %></td>
+        </tr>
+          <% total=element.cases+total }); %>
+          <tr>
+            <td></td>
+            <td style="font-weight: 900;">TOTAL</td>
+            <td style="font-weight: 800;"><%= total%></td>
+          </tr>
+
+        <!-- <tr>
+          <td>2.</td>
+          <td>Adarsh Nagar</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Malviya Nagar</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Jagatpura</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Sikar</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td>Vaishali Nagar</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>7.</td>
+          <td>Tilak Nagar</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>8.</td>
+          <td>Ajmer Road</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>9.</td>
+          <td>Sirsi Road</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>10.</td>
+          <td>Subhash Marg</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>11.</td>
+          <td>Raja Park</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>12.</td>
+          <td>Bani park</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>13.</td>
+          <td>Sethi Colony</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>14.</td>
+          <td>Shastri Nagar</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>15.</td>
+          <td>Civil Lines</td>
+          <td>1</td>
+        </tr> -->
+      </table>
+</div>
+<%- include("partials/footer") %>
