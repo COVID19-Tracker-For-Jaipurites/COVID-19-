@@ -4,7 +4,7 @@ The Project is a Single Page Web Application which provides the information abou
 The idea behind the project was to make the people of Jaipur aware about then current situation of their areas.
 
 
-**Note** : The Web page is deployed on Heroku Server.
+**Note** : The Web Page Was Last Updated As On 22/07/2020.
 
 ###### Live Demo : https://blooming-cove-31259.herokuapp.com/
 
