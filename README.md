@@ -1,5 +1,4 @@
-<img src="public/image/covid-image-(1).png" alt="diseasephoto" align ="right" height="60" width="60" />
-
+<img src="public/image/covid-image-(1).png" alt="diseasephoto" align ="left" height="100" width="100"/>
 
 # COVID-19-Tracker Jaipur
 #### Description
