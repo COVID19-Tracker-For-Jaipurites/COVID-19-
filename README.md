@@ -6,6 +6,11 @@
     <img src="https://img.shields.io/badge/npm-6.14.1-brightgreen.svg"
          alt="Gitter">
   </a>
+  
+   <a href="https://github.com/COVID19-Tracker-For-Jaipurites/COVID-19-">
+    <img src="https://img.shields.io/badge/npm-6.14.1-brightgreen.svg"
+         alt="Gitter">
+  </a>
    </p>
 
 
