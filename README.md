@@ -1,6 +1,3 @@
-<img src="image\covid-image-(1).png" alt="diseasephoto" align ="right" height="60" />
-
-
 # COVID-19-Tracker Jaipur
 #### Description
 The Project is a Single Page Web Application which provides the information about the COVID-19 cases in Jaipur Area-wise as well as Total,Active,Recovered and Deaths cases in Jaipur City.The Web Page Gets Regularly Updated(Till:22/07/2020).
