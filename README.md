@@ -2,7 +2,7 @@
 
 # COVID-19-Tracker Jaipur
 ![David](https://img.shields.io/david/COVID19-Tracker-For-Jaipurites/COVID-19-?color=EC3E36&logo=GitHub&style=plastic)
-
+![npm](https://img.shields.io/npm/v/npm?logo=NPM)
 
 
 #### Description
