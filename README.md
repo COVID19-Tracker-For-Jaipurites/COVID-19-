@@ -1,12 +1,11 @@
 <img src="public/image/covid-image-(1).png" alt="diseasephoto" align ="left" height="200" width="200"/>
 
 # COVID-19-Tracker Jaipur
-[![npm](https://img.shields.io/npm/v/npm?logo=NPM)](https://www.python.org/)
-[![GitHub contributors](https://img.shields.io/github/contributors/COVID19-Tracker-For-Jaipurites/COVID-19-?color=green&style=plastic)](https://github.com/rammazzoti2000/personal_portfolio/graphs/contributors)
-[![Bitbucket open issues](https://img.shields.io/bitbucket/issues/COVID19-Tracker-For-Jaipurites/COVID-19-?style=plastic)](https://github.com/COVID19-Tracker-For-Jaipurites/COVID-19-/graphs/contributors)
+[![npm](https://img.shields.io/npm/v/npm?logo=NPM)](https://www.npmjs.com/package/package-list)
+[![GitHub contributors](https://img.shields.io/github/contributors/COVID19-Tracker-For-Jaipurites/COVID-19-?color=green&style=plastic)](https://github.com/COVID19-Tracker-For-Jaipurites/COVID-19-/graphs/contributors)
+[![Bitbucket open issues](https://img.shields.io/bitbucket/issues/COVID19-Tracker-For-Jaipurites/COVID-19-?style=plastic)](https://github.com/COVID19-Tracker-For-Jaipurites/COVID-19-/issues)
 [![GitHub forks](https://img.shields.io/github/forks/COVID19-Tracker-For-Jaipurites/COVID-19-?style=social)](https://github.com/COVID19-Tracker-For-Jaipurites/COVID-19-/network/members)
 ![GitHub repo size](https://img.shields.io/github/repo-size/COVID19-Tracker-For-Jaipurites/COVID-19-?color=%09%2332CD32)
-
 
 #### Description
 The Project is a Single Page Web Application which provides the information about the COVID-19 cases in Jaipur Area-wise as well as Total,Active,Recovered and Deaths cases in Jaipur City.The Web Page Gets Regularly Updated(Till:22/07/2020).
