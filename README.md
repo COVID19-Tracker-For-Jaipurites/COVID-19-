@@ -10,11 +10,12 @@
 #### Description
 
 
-<img src="public/image/homepage.png" alt="dseasephoto" align ="left" height="500" width="1000">
+<img src="public/image/overview.png" alt="dseasephoto" align ="left" height="500" width="1000">
 
 The Project is a Single Page Web Application which provides the information about the COVID-19 cases in Jaipur Area-wise as well as Total,Active,Recovered and Deaths cases in Jaipur City.The Web Page Gets Regularly Updated(Till:22/07/2020).
 The idea behind the project was to make the citizens of Jaipur aware about then current situation of their areas.
 
+<img src="public/image/area.png" alt="dseasephoto" align ="left" height="500" width="1000">
 
 **Note** : The Web Page Was Last Updated As On 22/07/2020.
 
@@ -47,5 +48,3 @@ To send a PR, follow these rules carefully,**otherwise your PR will be closed**:
 For any doubts related to the issues, i.e., to understand the issue better etc, comment down your queries on the respective issue.
 
 **If you liked the project,  Please do :star: star the repository .**
-
- 
