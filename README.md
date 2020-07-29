@@ -10,5 +10,5 @@
 #### Description
 
 
-<img src="public/image/homepage.png" alt="diseasephoto" align ="left" height="300" width="700"/>
+<img src="public/image/homepage.png" alt="diseasephoto" align ="left" height="300" width="700">
 
