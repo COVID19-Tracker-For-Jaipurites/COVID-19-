@@ -1,18 +1,7 @@
 <img src="public/image/covid-image-(1).png" alt="diseasephoto" align ="left" height="200" width="200"/>
 
 # COVID-19-Tracker Jaipur
-<p align="center">
-  <a href="https://www.npmjs.com/package/package-list">
-    <img src="https://img.shields.io/badge/npm-6.14.1-brightgreen.svg"
-         alt="Gitter">
-  </a>
-  
-   <a href="https://github.com/COVID19-Tracker-For-Jaipurites/COVID-19-">
-    <img src="https://img.shields.io/badge/npm-6.14.1-brightgreen.svg"
-         alt="Gitter">
-  </a>
-   </p>
-
+![David](https://img.shields.io/david/COVID19-Tracker-For-Jaipurites/COVID-19-?color=EC3E36&logo=GitHub&style=plastic)
 
 
 
