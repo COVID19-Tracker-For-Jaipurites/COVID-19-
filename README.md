@@ -15,7 +15,9 @@
 
 <img src="public/image/area.png" alt="dseasephoto" align ="left" height="500" width="1000">
 
+
 --------------------------------------------------------------------------------------------------------------
+
 The Project is a Single Page Web Application which provides the information about the COVID-19 cases in Jaipur Area-wise as well as Total,Active,Recovered and Deaths cases in Jaipur City.The Web Page Gets Regularly Updated(Till:22/07/2020).
 The idea behind the project was to make the citizens of Jaipur aware about then current situation of their areas.
 **Note** : The Web Page Was Last Updated As On 22/07/2020.
