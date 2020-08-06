@@ -39,7 +39,7 @@ To contribute to the project:
 1. Choose any open issue from [here]  https://github.com/COVID19-Tracker-For-Jaipurites/COVID-19-/issues.
 2. Comment on the issue: `Can I work on this?` and get assigned.
 3. Make changes to your fork and send a PR.
-
+-----------------------------------------------------------------------------------------------------------------
 To create a PR:
 
 Follow the given link to make a successful and valid PR: https://github.com/COVID19-Tracker-For-Jaipurites/COVID-19-/pulls .
